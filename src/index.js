@@ -18,6 +18,7 @@ import Gayatrichalisa from "./pages/gayatrichalisa";
 import Dattbavni from "./pages/dattbavni";
 import Barjyotirling from "./pages/barjyotirling";
 import Chhand from "./pages/chhand";
+import Adhayshakti from "./pages/Adhayshakti";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -33,6 +34,7 @@ root.render(
         <Route path="Dattbavni" element={<Dattbavni />} />
         <Route path="Barjyotirling" element={<Barjyotirling />} />
         <Route path="Chhand" element={<Chhand />} />
+        <Route path="Adhayshakti" element={<Adhayshakti />} />
 
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NoPage />} />

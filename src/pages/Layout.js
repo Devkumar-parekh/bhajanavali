@@ -66,10 +66,15 @@ const Layout = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/Adhayshakti">
+                  જય આદ્યાશક્તિ
+                </Link>
+              </li>
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/Chhand">
                   માતાજીના છંદ - અમીચંદ
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
