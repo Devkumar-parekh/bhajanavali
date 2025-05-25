@@ -75,6 +75,11 @@ const Layout = () => {
                   માતાજીના છંદ - અમીચંદ
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/TaliNiAarti">
+                  श्री खंडोबा महाराज तळी आरती
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
