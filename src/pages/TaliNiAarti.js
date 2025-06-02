@@ -40,7 +40,7 @@ const TaliNiAarti = () => {
         {/* talichiaarti.jpeg */}
         <img
           src="./talichiaarti.jpeg"
-          style={{ width: "400px", height: "600px" }}
+          style={{ width: "400px", height: "auto", maxWidth: "100%" }}
           alt="chakrapuja"
         />
         {/* <img

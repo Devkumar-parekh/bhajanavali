@@ -32,7 +32,7 @@ const Chakrapuja = () => {
       <div style={{ textAlign: "center" }}>
         <img
           src="./chakrapuja.png"
-          style={{ width: "800px", height: "600px" }}
+          style={{ width: "800px", height: "auto", maxWidth: "100%" }}
           alt="chakrapuja"
         />
       </div>
