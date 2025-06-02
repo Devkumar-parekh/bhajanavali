@@ -20,6 +20,7 @@ import Barjyotirling from "./pages/barjyotirling";
 import Chhand from "./pages/chhand";
 import Adhayshakti from "./pages/Adhayshakti";
 import TaliNiAarti from "./pages/TaliNiAarti";
+import Chakrapuja from "./pages/Chakrapuja";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -37,6 +38,7 @@ root.render(
         <Route path="Chhand" element={<Chhand />} />
         <Route path="Adhayshakti" element={<Adhayshakti />} />
         <Route path="TaliNiAarti" element={<TaliNiAarti />} />
+        <Route path="Chakrapuja" element={<Chakrapuja />} />
 
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NoPage />} />

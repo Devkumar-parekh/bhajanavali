@@ -80,6 +80,11 @@ const Layout = () => {
                   श्री खंडोबा महाराज तळी आरती
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Chakrapuja">
+                  चक्रपूजा
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

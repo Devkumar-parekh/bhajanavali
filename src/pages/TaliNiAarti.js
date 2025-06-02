@@ -26,6 +26,29 @@ const TaliNiAarti = () => {
           <br />
         </p>
       </div>
+      <div
+        style={{ textAlign: "center", width: "fit-content", margin: "auto" }}
+      >
+        <ol>
+          3 var
+          <li>Normal</li>
+          <li>Topi - thali niche</li>
+          <li>Pan - thali niche</li>
+        </ol>
+      </div>
+      <div style={{ textAlign: "center" }}>
+        {/* talichiaarti.jpeg */}
+        <img
+          src="./talichiaarti.jpeg"
+          style={{ width: "400px", height: "600px" }}
+          alt="chakrapuja"
+        />
+        {/* <img
+          src="./chakrapuja.png"
+          style={{ width: "800px", height: "600px" }}
+          alt="chakrapuja"
+        /> */}
+      </div>
     </div>
   );
 };
