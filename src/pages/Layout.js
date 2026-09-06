@@ -161,11 +161,12 @@ const Layout = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               src="/logo.png"
               style={{ width: "100px" }}
               className="img-fluid"
+              alt="logo"
             />
           </a>
           <button
